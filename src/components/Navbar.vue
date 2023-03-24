@@ -1,8 +1,15 @@
 <template>
-    <v-container>
+    <div class="zero">
         <v-row>
         <v-spacer></v-spacer>
-        <v-btn @click="this.$router.push('/')">Home</v-btn>
+        <v-btn rounded="pill" variant="tonal" class="mt-15 mr-15" @click="this.$router.push('/')">Home</v-btn>
     </v-row>
-    </v-container>
+</div>
 </template>
+
+<style scoped>
+.zero {
+    height: 0px;
+    padding: 0;
+}
+</style>

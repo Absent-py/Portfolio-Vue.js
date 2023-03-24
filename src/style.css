@@ -1,11 +1,14 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  font-family: Caveat;
+  src: local("Caveat"), url(./fonts/Caveat/Caveat-VariableFont_wght.ttf) format("truetype");
   line-height: 1.5;
   font-weight: 400;
+  font-size: 24px;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgb(255, 255, 255);
+  background-color: #02041d;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -13,6 +16,12 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+
+@font-face {
+  font-family: Caveat;
+  src: local("Caveat"), url(./fonts/Caveat/Caveat-VariableFont_wght.ttf) format("truetype");
+}
+
 
 button:hover {
   border-color: #646cff;
